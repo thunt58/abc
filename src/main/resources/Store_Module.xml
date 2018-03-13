@@ -1,0 +1,15 @@
+<suite name="test01" verbose="10" paralled="true">
+	<test name="TestFirefox" preserve-order="true">
+		<parameter name="brower" value="firefox">
+			<classes>
+				<class name="test.Store_TestCase">
+					<methods>
+						<include name="checkStoreListDefault" />	
+						<include name="checkStoreList" />	
+						<include name="checkStoreList_District" />	
+					</methods>
+				</class>
+			</classes>
+		</parameter>
+	</test>
+</suite>

@@ -1,0 +1,15 @@
+<suite name="test01" verbose="10" paralled="true">
+	<test name="TestFirefox" preserve-order="true">
+		<parameter name="brower" value="firefox">
+			<classes>
+				<class name="test.HomePage_TestCase">
+					<methods>
+						
+						<include name="checkHomeIcon" />
+							
+					</methods>
+				</class>
+			</classes>
+		</parameter>
+	</test>
+</suite>
